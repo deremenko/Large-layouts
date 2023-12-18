@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  width: 1040px;
+  background-color: rgb(255, 255, 255);
+  margin:0px 0px -130px 0 ;
+}
+
+.main-container__title-text {
+  position: relative;
+  top: 10px;
+  font-size: 5.5em;
+  color: rgb(0, 0, 211);
+  text-align: center;
+}
+
+.main-container__logo {
+  width: 854px;
+  height: 854px;
+  border-radius: 50%;
+  position: relative;
+  top: 25px;
+  left: 100px;
+  background-image: url(img/pain-man.png);
+  background-position: 50% 50%;
+}
+
+.main-container__grid {
+  position: relative;
+  top: -206px;
+  left: 49px;
+  min-height: 624px;
+  width: 976px;
+  display: grid;
+  grid-template-areas: 
+  'container-1 container-2 container-3'
+  'container-4 container-5 container-6';
+  grid-gap: 50px;
+}
+
+.main-container__grid_container-1 {
+  grid-area: 'container-1';
+}
+
+.main-container__grid_container-2 {
+  grid-area: 'container-2';
+}
+
+.main-container__grid_container-3 {
+  grid-area: 'container-3';
+}
+
+.main-container__grid_container-4 {
+  grid-area: 'container-4';
+}
+
+.main-container__grid_container-5 {
+  grid-area: 'container-5';
+}
+
+.main-container__grid_container-6 {
+  grid-area: 'container-6';
+}
+
+.main-container-item-link {
+  width: 291px;
+  height: 362px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-container-item-link__img {
+  width: 76px;
+  height: 76px;
+  margin: 20px 0px 0px;
+}
+
+.main-container-item-link__title-text {
+  font-size: 1.5em;
+  margin: 20px 0 20px;
+}
+
+.main-container-item-link__main-text {
+  line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 165px;
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.footer__center-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 417px;
+}
