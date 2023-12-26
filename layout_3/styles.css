@@ -23,14 +23,17 @@ body {
   align-self: center;
   grid-area: p6;
 }
+
 .preview-container__grid-part-p4 {
   justify-self: center;
   grid-area: p4;
 }
+
 .preview-container__grid-part-p11 {
   justify-self: center;
   grid-area: p11;
 }
+
 .preview-container__grid-part-p12 {
   justify-self: center;
   grid-area: p12;
